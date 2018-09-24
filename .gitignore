@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Project Files
+cuda_conway
+non_cuda_conway
+make_input
+
