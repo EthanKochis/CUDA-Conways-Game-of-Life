@@ -38,8 +38,8 @@ OR
 This is the program that will run Conway's Game of Life.  It will either generate a random grid or use the one specified in the optional *inputFile* parameter.  The program will create a **results** folder that contains text and PNG representations of each generation. The file **conway.gif** shows each generation in an animation format.
 
 Two versions are provided to compare the speed increase running on a GPU provides:
-* non_cuda_conway runs purely on a CPU without using the CUDA framework.
-* conway uses a GPU to calculate each cell's state in parallel using the CUDA framework.
+* ``non_cuda_conway`` runs purely on a CPU without using the CUDA framework.
+* ``conway`` uses a GPU to calculate each cell's state in parallel using the CUDA framework.
 
 ## Meta
 
